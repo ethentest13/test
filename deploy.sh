@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #ansible ph-dev-qa -m unarchive -u deploy -a "src=/home/terraform/.shell/machine_deploy.sh.tgz dest=/home/ethen/.shell/ copy=yes" -b > /dev/null 2>&1
-#12345
+#67890
 
 ansible jb -m unarchive -u deploy -a "src=/home/terraform/.shell/machine_config.sh.tgz dest=/home/ethen/.shell/ copy=yes" -b > /dev/null 2>&1
 ansible jb -m unarchive -u deploy -a "src=/home/terraform/.file/check.tgz dest=/root/ copy=yes" -b > /dev/null 2>&1
