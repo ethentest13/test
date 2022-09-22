@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "Hello, world! The time is $(date)."
-echo "What's up, that's dance, yoyoyo"
+echo "What's up, that's be happy"
