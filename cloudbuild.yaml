@@ -2,6 +2,10 @@ steps:
 - name: 'bash'
   args: ['./quickstart.sh']
 
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  entrypoint: 'bash'
+  args: [ '-c', 'curl -i https://rcl666.com' ]
 #steps:
 #- name: 'gcr.io/cloud-builders/docker'
 #  args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/quickstart-image', '.' ]
