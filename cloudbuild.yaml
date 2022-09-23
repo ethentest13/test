@@ -17,11 +17,13 @@
 steps:
 - name: 'gcr.io/cloud-builders/kubectl'
   args:
-  - set
-  - image
-  - deployment
-  - nginx-test
-  - nginx=gcr.io/rcl2021-300903/nginx:latest
+  - get
+  - pods
+#  - set
+#  - image
+#  - deployment
+#  - nginx-test
+#  - nginx=gcr.io/rcl2021-300903/nginx:latest
   env:
   - 'CLOUDSDK_CORE_PROJECT=rcl2021-300903'
   - 'CLOUDSDK_COMPUTE_ZONE=asia-east1-a'
