@@ -30,4 +30,4 @@ steps:
   - 'CLOUDSDK_CONTAINER_CLUSTER=function-test'
 options:
   pool:
-    name: 'projects/rcl2021-300903/locations/asia-east1/workerPools/ethen-test-privatepool
+    name: 'projects/rcl2021-300903/locations/asia-east1/workerPools/ethen-test-privatepool'
