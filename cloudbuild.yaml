@@ -19,6 +19,7 @@ steps:
   args:
   - get
   - pods
+  - -n test
 #  - set
 #  - image
 #  - deployment
