@@ -21,7 +21,7 @@ steps:
   - get
   - pods
   - -n
-  - j-test
+  - default
 #  - set
 #  - image
 #  - deployment
