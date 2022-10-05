@@ -17,7 +17,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/kubectl'
   args:
-  - gcloud container clusters get-credentials function-test --zone asia-east1-a --project rcl2021-300903
+#  - gcloud container clusters get-credentials function-test --zone asia-east1-a --project rcl2021-300903
   - get
   - ns
 #  - set
@@ -30,6 +30,6 @@ steps:
   - 'CLOUDSDK_COMPUTE_ZONE=asia-east1-a'
   - 'CLOUDSDK_CONTAINER_CLUSTER=function-test'
 options:
-#  pool:
-#    name: 'projects/rcl2021-300903/locations/asia-east1/workerPools/ethen-test-privatepool'
-  workerPool: projects/rcl2021-300903/locations/asia-east1/workerPools/ethen-test-privatepool
+  pool:
+    name: 'projects/rcl2021-300903/locations/asia-east1/workerPools/ethen-test-privatepool'
+#  workerPool: projects/rcl2021-300903/locations/asia-east1/workerPools/ethen-test-privatepool
