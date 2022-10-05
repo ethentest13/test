@@ -20,6 +20,8 @@ steps:
 #  - gcloud container clusters get-credentials function-test --zone asia-east1-a --project rcl2021-300903
   - get
   - pods
+  - -n
+  - test
 #  - set
 #  - image
 #  - deployment
