@@ -29,7 +29,7 @@ steps:
 #  - nginx=gcr.io/rcl2021-300903/nginx:latest
   env:
   - 'CLOUDSDK_CORE_PROJECT=rcl2021-300903'
-  - 'CLOUDSDK_COMPUTE_ZONE=asia-east1-c'
+  - 'CLOUDSDK_COMPUTE_ZONE=asia-east1'
   - 'CLOUDSDK_CONTAINER_CLUSTER=ethentest-cluster-1'
 #options:
 #  pool:
