@@ -19,7 +19,7 @@ steps:
   args:
 #  - gcloud container clusters get-credentials function-test --zone asia-east1-a --project rcl2021-300903
   - get
-  - ns
+  - pods
 #  - -n
 #  - ethentest2
 #  - set
