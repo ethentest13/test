@@ -18,9 +18,9 @@ steps:
 - name: 'gcr.io/cloud-builders/kubectl'
   args:
 #  - gcloud container clusters get-credentials function-test --zone asia-east1-a --project rcl2021-300903
-  - create
+  - get
   - ns
-  - testyes
+#  - test
 #  - set
 #  - image
 #  - deployment
@@ -28,8 +28,8 @@ steps:
 #  - nginx=gcr.io/rcl2021-300903/nginx:latest
   env:
   - 'CLOUDSDK_CORE_PROJECT=rcl2021-300903'
-  - 'CLOUDSDK_COMPUTE_ZONE=asia-east1'
-  - 'CLOUDSDK_CONTAINER_CLUSTER=ethentest-cluster-1'
+  - 'CLOUDSDK_COMPUTE_ZONE=asia-east1-a'
+  - 'CLOUDSDK_CONTAINER_CLUSTER=function-test'
 #options:
 #  pool:
 #    name: 'projects/rcl2021-300903/locations/asia-east1/workerPools/ethen-test-privatepool'
