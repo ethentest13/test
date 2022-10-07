@@ -19,7 +19,7 @@ steps:
   args:
 #  - gcloud container clusters get-credentials function-test --zone asia-east1-a --project rcl2021-300903
   - get
-  - ns
+  - svc
 #  - test
 #  - set
 #  - image
@@ -32,5 +32,5 @@ steps:
   - 'CLOUDSDK_CONTAINER_CLUSTER=function-test'
 options:
   pool:
-    name: 'projects/rcl2021-300903/locations/asia-east1/workerPools/ethen-test-privatepool'
+    name: 'projects/rcl2021-300903/locations/asia-east1/workerPools/ethen-test-privatepool-2'
 #  workerPool: projects/rcl2021-300903/locations/asia-east1/workerPools/ethen-test-privatepool
